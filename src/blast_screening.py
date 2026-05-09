@@ -8,7 +8,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 results = []
-fasta_file = r"C:\Users\vanat\OneDrive\Documents\N.fowleri\31proteins.fasta"
+fasta_file = "data/sample.fasta"
 
 for record in SeqIO.parse(fasta_file, "fasta"):
 
