@@ -113,7 +113,7 @@ pip install -r requirements.txt
 
 ---
 
-### ▶ Run the Pipeline
+### Run the Pipeline
 
 ```bash id="d4u8km"
 python src/blast_screening.py
