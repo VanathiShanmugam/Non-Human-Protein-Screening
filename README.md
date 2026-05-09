@@ -4,17 +4,17 @@
 
 ---
 
-## ✨ Features
+## Features
 
-✔ Automated BLASTP analysis against human proteins
-✔ Identification of pathogen-specific proteins
-✔ Non-human similarity scoring framework
-✔ Retry handling for stable NCBI querying
-✔ CSV-based result generation
+- Automated BLASTP analysis against human proteins
+- Identification of pathogen-specific proteins
+- Non-human similarity scoring framework
+- Retry handling for stable NCBI querying
+- CSV-based result generation
 
 ---
 
-## 🧬 Project Overview
+## Project Overview
 
 This project presents a Python-based computational workflow for identifying proteins with low similarity to human proteins using the NCBI BLAST API and Biopython.
 
@@ -33,7 +33,7 @@ Applications include:
 
 ---
 
-## ⚙️ Workflow
+## Workflow
 
 ### 📥 1. Input Processing
 
@@ -103,9 +103,9 @@ non-human-protein-screening/
 
 ---
 
-## ▶️ Usage
+## Usage
 
-### 📦 Install Dependencies
+### Install Dependencies
 
 ```bash id="p9t1za"
 pip install -r requirements.txt
@@ -121,7 +121,7 @@ python src/blast_screening.py
 
 ---
 
-## 📁 Output
+## Output
 
 Generated CSV file:
 
@@ -131,7 +131,7 @@ non_human_similarity_scores.csv
 
 ---
 
-## ⚠️ Important Notes
+## Important Notes
 
 * Internet connection is required
 * BLAST requests may take time depending on server load
@@ -139,7 +139,7 @@ non_human_similarity_scores.csv
 
 ---
 
-## 📚 Data Source & Acknowledgement
+## Data Source & Acknowledgement
 
 Protein FASTA sequences and BLAST services were obtained from the NCBI database and tools.
 
@@ -149,7 +149,7 @@ NCBI Resource:
 
 ---
 
-## 🧠 Scientific Relevance
+## Scientific Relevance
 
 This workflow supports:
 
@@ -160,7 +160,7 @@ This workflow supports:
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Vanathi Shanmugam**
 Bioinformatics | Genomics | Machine Learning
